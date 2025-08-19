@@ -1,0 +1,51 @@
+/*********** Media Queries styles start here *************/
+@media screen and (max-width: 576px) {
+    nav, section {
+        padding: 20px 20px;
+    }
+    .button-container {
+        flex-direction: column;
+    }
+    .hero {
+        flex-direction: column;
+    }
+    .nav-lists {
+        display: none;
+    }
+    .navbar-icon {
+        display: block;
+    }
+    .hero-content {
+        max-width: 100%;
+        margin-right: 16px;
+    }
+    .hero-title {
+        font-size: 3.5rem;
+    }
+    .badge-500 {
+        top: 45px;
+        right: -28px;
+    }
+
+    .badge-350 {
+        bottom: 240px;
+        left: -15px;
+    }
+}
+
+
+@media screen and (min-width: 577px) and (max-width:992px) {
+    nav, section {
+        padding: 20px 20px;
+    }
+    .hero {
+        flex-direction: column;
+    }
+    .hero-content {
+        max-width: 70%;
+    }
+    .hero-title {
+        font-size: 4rem;
+    }
+
+}

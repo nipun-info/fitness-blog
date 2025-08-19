@@ -1,0 +1,209 @@
+/* Google Font (inter) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-primary: rgba(230, 83, 60, 1);
+    --clr-white: rgba(255, 255, 255, 1);
+    --bg-primary: rgba(230, 83, 60, 1);
+    --font-inter: "Inter", sans-serif;
+    --font-miama: 'Miama', sans-serif;
+}
+
+/* reuse css style */
+.font-miama {
+    font-family: var(--font-miama);
+}
+.font-inter {
+    font-family: var(--font-inter);
+}
+body {
+    font-family: var(--font-inter);
+}
+.d-flex {
+    display: flex;
+}
+.text-primary {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    margin: 1.2rem 0;
+}
+.btn {
+    color: var(--clr-white);
+    font-size: 1.5rem;
+    font-weight: 400;
+    /* background: transparent; */
+    padding: 16px 40px;
+    border-radius: 42px;
+    border: none;
+    margin-right: 1rem;
+}
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+.btn-primary {
+    background-color: var(--bg-primary);
+}
+.btn-secondary {
+    background: transparent;
+    border: 1px solid var(--clr-white);
+}
+
+nav, section {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 50px 190px;
+}
+
+
+/*********** Header styles start here *************/
+header {
+    background: linear-gradient(135deg, #000000 0%, #0d0d0d 60%, #121212 100%);
+}
+/* ------- navbar -------- */
+nav {
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-brand .logo {
+    text-decoration: none;
+    color: var(--clr-primary);
+    font-size: 2.2rem;
+    font-weight: 600;
+    font-style: italic;
+}
+
+
+.nav-menu .nav-list {
+    list-style: none;
+    margin-right: 30px;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    
+}
+.nav-menu .nav-link {
+    text-decoration: none;
+    color: var(--clr-white);
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    cursor: pointer;
+    transition: 1s ease;
+    padding: 8px 20px;
+}
+
+.nav-menu .nav-link:hover {
+    background-color: var(--bg-primary);
+    width: 100px;
+    height: 40px;
+    border-radius: 45px;
+}
+
+.navbar-icon {
+    color: var(--clr-white);
+    display: none;
+}
+
+
+/* ------- hero section start -------- */
+.hero {
+    display: flex;
+    align-items: center;
+}
+.hero-content {
+    max-width: 520px;
+    margin-right: 160px;
+}
+.hero-title {
+    font-size: 4.8rem;
+    color: var(--clr-white);
+    font-weight: 900;
+    line-height: 6rem;
+
+}
+#shape {
+    font-family: var(--font-miama);
+    font-size: 7rem;
+    font-weight: 400;
+}
+.hero-image {
+    position: relative;
+}
+
+.badge {
+    width: 180px;
+    height: auto;
+    background: rgba(255, 255, 255, 0.1);
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 12px 20px;
+}
+.badge-500 {
+    position: absolute;
+    top: 140px;
+    right: -80px;
+}
+.badge-500 h4 {
+    font-size: 3rem;
+    color: var(--clr-white);
+}
+.badge-350 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: absolute;
+    bottom: 80px;
+    left: -75px;
+}
+.play-button {
+    background-color: var(--bg-primary);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--clr-white);
+}
+.badge-350 h4 {
+    font-size: 2.2rem;
+    color: var(--clr-white);
+}
+
+/*********** Main styles start here *************/
+
+/* -------  -------- */
+
+
+/* -------  -------- */
+
+
+/* -------  -------- */
+
+
+
+/*********** Footer styles start here *************/
+
+
+
+
+
+
+
+
+
+
