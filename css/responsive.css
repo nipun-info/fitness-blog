@@ -32,6 +32,11 @@
         left: -15px;
     }
 
+    .habit-card-container {
+        margin-top: 50px;
+        grid-template-columns: 1fr;
+    }
+
 
 
 
@@ -63,6 +68,16 @@
     }
     .hero-title {
         font-size: 4rem;
+    }
+
+
+
+    .habit-card-container {
+        margin-top: 50px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .habit-card {
+        max-width: 80%;
     }
 
 

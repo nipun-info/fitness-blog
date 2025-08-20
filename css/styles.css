@@ -188,11 +188,50 @@ nav {
 /*********** Main styles start here *************/
 main {
     margin: 300px 0;
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
 }
-/* -------  -------- */
+.section-title {
+    color: rgba(255, 255, 255, 1);
+    font-size: 3rem;
+    font-weight: 900;
+}
 
+/* ------- habits section start -------- */
+.section-habits-content {
+    max-width: 650px;
+    margin: 20px auto;
+    text-align: center;
+    
+}
+.habit-card-container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+}
+.habit-card {
+    max-width: 250px;
+    padding: 14px;
+    height: auto;
+    text-align: center;
+}
+.habit-card-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+.habit-card-title {
+    color: rgba(255, 255, 255, 1);
+    margin-top: 12px;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
 
-/* -------  -------- */
+/* ------- run section styles -------- */
+/* ------- training section styles -------- */
+/* ------- bmi calculator section styles -------- */
+/* ------- team section styles -------- */
 
 
 /* -------  -------- */
