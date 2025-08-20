@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Select Dropdown Styling</title>
+  <style>
+    /* Style the select box */
+    select {
+      width: 220px;
+      padding: 10px 15px;   /* inside spacing */
+      margin: 20px;        /* outside spacing */
+      border: 2px solid #444;
+      border-radius: 6px;
+      background-color: #f9f9f9;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    /* Style options inside the dropdown */
+    option {
+      padding: 8px 12px;   /* spacing inside each option */
+      margin: 4px 6px;       /* works in some browsers, ignored in others */
+    }
+  </style>
+</head>
+<body>
+  <label for="fruits">Choose a fruit:</label>
+  <select id="fruits" name="fruits">
+    <option value="apple">🍎 Apple</option>
+    <option value="banana">🍌 Banana</option>
+    <option value="mango">🥭 Mango</option>
+    <option value="orange">🍊 Orange</option>
+  </select>
+</body>
+</html>
