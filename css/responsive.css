@@ -6,7 +6,8 @@
     .button-container {
         flex-direction: column;
     }
-    .hero {
+    .hero,
+    .run-container {
         flex-direction: column;
     }
     .nav-lists {
@@ -35,6 +36,10 @@
     .habit-card-container {
         margin-top: 50px;
         grid-template-columns: 1fr;
+    }
+
+    .section-run-content {
+        margin-right: 20px;
     }
 
 
@@ -78,6 +83,10 @@
     }
     .habit-card {
         max-width: 80%;
+    }
+
+    .section-run-content {
+        margin-right: 40px;
     }
 
 
