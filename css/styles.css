@@ -9,6 +9,7 @@
 
 :root {
     --clr-primary: rgba(230, 83, 60, 1);
+    --clr-secondary: rgba(255, 255, 255, 0.5);
     --clr-white: rgba(255, 255, 255, 1);
     --bg-primary: rgba(230, 83, 60, 1);
     --font-inter: "Inter", sans-serif;
@@ -29,7 +30,7 @@ body {
     display: flex;
 }
 .text-primary {
-    color: rgba(255, 255, 255, 0.5);
+    color: var(--clr-secondary);
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.4rem;
@@ -37,7 +38,7 @@ body {
 }
 .btn {
     color: var(--clr-white);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 400;
     /* background: transparent; */
     padding: 16px 40px;
@@ -185,7 +186,9 @@ nav {
 }
 
 /*********** Main styles start here *************/
-
+main {
+    margin: 300px 0;
+}
 /* -------  -------- */
 
 
@@ -197,7 +200,40 @@ nav {
 
 
 /*********** Footer styles start here *************/
-
+footer {
+    background: #1a1a1a;
+}
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+}
+.footer-card {
+    color: var(--clr-white);
+    max-width: 480px;
+    padding: 20px;
+}
+.footer-card-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.footer-lists {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.footer-list {
+    list-style: none;
+}
+.footer-link {
+    text-decoration: none;
+    color: var(--clr-secondary);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.footer-copy-write {
+    text-align: center;
+}
 
 
 
